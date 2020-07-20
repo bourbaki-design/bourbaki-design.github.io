@@ -1,0 +1,24 @@
+.play rounded-box state-playing {
+display:none;
+}
+
+.watch-later-button {
+  display:none;
+}
+
+.rounded-box {
+  display:none;
+}
+
+
+.vp-sidedock {
+  display:none;
+}
+
+body {
+  background-color: #555;
+}
+
+.vp-controls-wrapper {
+  display:none;
+}

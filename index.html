@@ -6,6 +6,7 @@
   <meta charset="utf-8">
   <title>Example Site</title>
 
+  <link rel="stylesheet" href="css/normalize.css"/>
   <link rel="stylesheet" href="css/style.css"/>
   <link rel="shortcut icon" href="../img/favicon.ico" type="image/vnd.microsoft.icon">
   <script src="https://player.vimeo.com/api/player.js"></script>
@@ -13,9 +14,26 @@
 
 </head>
 <body class="page-index">
-    <p>こんにちわaaa</p>
+    <!-- <p>こんにちわaaa</p> -->
 <img src="../img/img01.svg" "="" alt="あ">
-<iframe id="sample" src="https://player.vimeo.com/video/437123414" width="640" height="564" frameborder="0" allow="autoplay; fullscreen" allowfullscreen=""></iframe>
+<iframe src="https://player.vimeo.com/video/437123414?autoplay=1&loop=1&title=0&byline=0&portrait=0" width="640" height="360" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
 
 </body>
+
+<script>
+    var iframe = document.querySelector('iframe');
+    var player = new Vimeo.Player(iframe);
+
+    player.on('play', function() {
+        console.log('played the video!');
+    });
+
+    player.getVideoTitle().then(function(title) {
+        console.log('title:', title);
+    });
+
+
+
+</script>
+
 </html>

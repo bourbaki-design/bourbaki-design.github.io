@@ -1,6 +1,3 @@
+// console.log("hello world!");
 
-var player = new Vimeo.Player('sample');
-
-player.on('play', function() {
-    console.log('再生');
-});
+document.write("<p>JavaScript テスト</p>");
