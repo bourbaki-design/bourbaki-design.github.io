@@ -1,6 +1,6 @@
 
 body {
-  background-color: #555;
+  background-color: #000;
 }
 
 .vp-controls-wrapper {
@@ -8,7 +8,7 @@ body {
 }
 
 .wrapper {
-  width: 1200px;
+
 }
 
 
@@ -17,5 +17,4 @@ body {
 }
 
 iframe {
-  width:100%;
 }
