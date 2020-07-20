@@ -19,6 +19,13 @@ body {
 iframe {
 }
 
+.box{
+  overflow: hidden;
+  margin: 0;
+  padding: 0;
+  vertical-align: baseline
+}
+
 
 .fitImg{
     position: absolute;
