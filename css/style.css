@@ -18,3 +18,20 @@ body {
 
 iframe {
 }
+
+
+.fitImg{
+    position: absolute;
+}
+
+.box__centered {
+    left: 50%;
+    position: absolute;
+    top: 50%;
+}
+
+
+.box__contents{
+    text-align: center;
+    transform: translate(-50%,-50%);
+}
