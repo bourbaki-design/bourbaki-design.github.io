@@ -1,24 +1,21 @@
-.play rounded-box state-playing {
-display:none;
-}
-
-.watch-later-button {
-  display:none;
-}
-
-.rounded-box {
-  display:none;
-}
-
-
-.vp-sidedock {
-  display:none;
-}
 
 body {
-  background-color: #555;
+  background-color: #000;
 }
 
 .vp-controls-wrapper {
   display:none;
+}
+
+.wrapper {
+  width: 1200px;
+}
+
+
+.video {
+  width: 100vw;
+}
+
+iframe {
+  width:100%;
 }
