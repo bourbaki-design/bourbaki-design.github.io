@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@1,500&display=swap');
+
 
 body {
   background-color: #000;
@@ -45,4 +47,10 @@ iframe {
 
 .box__title {
   width: 20em;
+}
+
+.box__text {
+  font-size: 2.5em;
+  font-family:  'Josefin Sans', sans-serif;
+  color: #fff;
 }
