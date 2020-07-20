@@ -19,11 +19,11 @@ body {
 iframe {
 }
 
-.box{
+.box {
   overflow: hidden;
   margin: 0;
   padding: 0;
-  vertical-align: baseline
+  vertical-align: baseline;
 }
 
 
