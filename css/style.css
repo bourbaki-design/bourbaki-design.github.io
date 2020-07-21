@@ -14,9 +14,7 @@
 
 .box {
   overflow: hidden;
-  margin: 0;
-  padding: 0;
-  vertical-align:baseline;
+  position: relative;
 }
 
 
@@ -145,12 +143,25 @@
 }
 
 .icon {
-  width:20%;
+  width:15%;
   margin:0 auto;
 }
 
 li {
   margin-bottom: 40px;
   font-family: 'Josefin Sans', sans-serif;
+  font-size: 2em;
   font-style: italic;
 }
+
+a {
+  text-decoration: none;
+  color: #000;
+}
+
+a:active {
+  color: #000;
+}
+
+a:hover {
+text-decoration: underline;
