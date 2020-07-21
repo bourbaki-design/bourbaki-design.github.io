@@ -37,7 +37,7 @@ function setBgImg(object){
 
     //画像の位置を設定
     var moveX = Math.floor((winW - setW) / 2);
-    var moveY = Math.floor((winH - setH) / 2);
+    var moveY = Math.floor((winH - setH) / 2 +48);
 
     //設定した数値でスタイルを適用
     object.css({
