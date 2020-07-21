@@ -59,16 +59,12 @@
   width: 50px;
 }
 #drawer-icon span {
-  background:  #333;
-  border-radius: 4px;
-  display: block;
-  height: 16%;
-  left: 50%;
-  margin: -8% 0 0 -42%;
-  position: absolute;
-  top: 50%;
-  transition: all 0.3s ease-in-out;
-  width: 84%;
+    content: "";
+    position: absolute;
+    top: calc(50% - 1px);
+    left: 30%;
+    width: 40%;
+    border-bottom: 2px solid black;
 }
 #drawer-icon span::before,
 #drawer-icon span::after {
