@@ -13,8 +13,8 @@
 } */
 
 .box {
+  position:relative;
   overflow: hidden;
-  position: relative;
 }
 
 
@@ -53,9 +53,9 @@
 #drawer-icon {
   cursor: pointer;
   display: inline-block;
-  height: 50px;
+  height: 88px;
   position: relative;
-  width: 50px;
+  width: 88px;
 }
 #drawer-icon span {
     content: "";
