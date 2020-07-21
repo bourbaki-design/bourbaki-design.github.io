@@ -12,9 +12,12 @@
   width: 100vw;
 } */
 
+.wrapper {
+}
+
 .box {
   position:relative;
-  overflow: hidden;
+  /* overflow-x: hidden; */
 }
 
 
