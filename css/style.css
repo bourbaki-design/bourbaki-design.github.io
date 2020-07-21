@@ -37,7 +37,7 @@
 }
 
 .box__title {
-  width: 20em;
+  width: 18em;
 }
 
 .box__text {
@@ -64,7 +64,7 @@
     top: calc(50% - 1px);
     left: 30%;
     width: 40%;
-    border-bottom: 2px solid black;
+    border-bottom: 2px solid #fff;
 }
 #drawer-icon span::before,
 #drawer-icon span::after {
@@ -74,7 +74,7 @@
   top: calc(50% - 1px);
   left: -2%;
   width: 100%;
-  border-bottom: 2px solid black;
+  border-bottom: 2px solid #fff;
 }
 #drawer-icon span::before {
   margin-top: -35%;
@@ -137,4 +137,8 @@
 #drawer-checkbox:checked ~ #drawer-close {
   display: block;
   opacity: 0.3;
+}
+
+.headder {
+  background-color: #000;
 }
