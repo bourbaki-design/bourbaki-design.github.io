@@ -75,12 +75,12 @@ body {
   content: "";
   position: absolute;
   top: calc(50% - 1px);
-  left: -2%;
+  left: -1%;
   width: 100%;
   border-bottom: 2px solid #fff;
 }
 #drawer-icon span::before {
-  margin-top: -35%;
+  margin-top: -38%;
 }
 #drawer-icon span::after {
   margin-top: 45%;
