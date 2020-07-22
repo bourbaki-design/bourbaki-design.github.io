@@ -12,18 +12,19 @@
   width: 100vw;
 } */
 
+body {
+	width: 100%;
+	height: 100%;
+  position: absolute;
+}
+
+
 .wrapper {
 }
 
 .box {
-  position:relative;
-  overflow-x: hidden;
 }
 
-
-.fitImg{
-  position: absolute;
-}
 
 .box__centered {
   left: 50%;
@@ -56,9 +57,9 @@
 #drawer-icon {
   cursor: pointer;
   display: inline-block;
-  height: 88px;
+  height: 10vh;
   position: relative;
-  width: 88px;
+  width: 10vw;
 }
 #drawer-icon span {
     content: "";
@@ -112,7 +113,7 @@
   top: 0;
   left: 0;
   z-index: 40;
-  width: 320px;
+  width: 40%;
   max-width: 90%;
   height: 100%;
   background: #fff  ;
