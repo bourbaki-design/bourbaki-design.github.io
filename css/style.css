@@ -57,9 +57,9 @@ body {
 #drawer-icon {
   cursor: pointer;
   display: inline-block;
-  height: 10vh;
+  height: 90px;
   position: relative;
-  width: 10vw;
+  width: 90px;
 }
 #drawer-icon span {
     content: "";
@@ -113,8 +113,7 @@ body {
   top: 0;
   left: 0;
   z-index: 40;
-  width: 40%;
-  max-width: 90%;
+  width: 50vw;
   height: 100%;
   background: #fff  ;
   transition: all 0.3s ease-in-out 0s;
@@ -152,11 +151,15 @@ body {
 }
 
 .icon {
-  width:15%;
+  width:60px;
 }
 
 .menu {
-  padding:80px 35px 40px;
+  padding:120px 80px 40px;
+}
+
+ul {
+  padding-left: 0;
 }
 
 
@@ -165,6 +168,7 @@ li {
   font-family: 'Josefin Sans', sans-serif;
   font-size: 2em;
   font-style: italic;
+  padding-left: 0;
 }
 
 a {
