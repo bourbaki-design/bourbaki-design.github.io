@@ -17,7 +17,7 @@
 
 .box {
   position:relative;
-  /* overflow-x: hidden; */
+  overflow-x: hidden;
 }
 
 
@@ -145,10 +145,19 @@
   background-color: #000;
 }
 
+.icon_container {
+  display: flex;
+  justify-content: space-between;
+}
+
 .icon {
   width:15%;
-  margin:0 auto;
 }
+
+.menu {
+  padding:80px 35px 40px;
+}
+
 
 li {
   margin-bottom: 40px;

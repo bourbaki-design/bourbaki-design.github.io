@@ -3,7 +3,7 @@
 <html>
 <head>
   <meta charset="utf-8">
-  <meta name="description" content="ページの内容を表す文章" />
+  <meta name="description" content="Bourbaki" />
   <title>Bourbaki | GakuIto</title>
   <link rel="stylesheet" href="css/normalize.css"/>
   <link rel="stylesheet" href="css/style.css"/>
@@ -11,7 +11,8 @@
   <link rel="shortcut icon" href="../img/favicon.ico" type="image/vnd.microsoft.icon">
   <!-- <script src="https://player.vimeo.com/api/player.js"></script> -->
   <script src="https://code.jquery.com/jquery-3.3.1.js"></script>
-  <script type="text/javascript" src="js/a.js"></script>
+  <!-- <script type="text/javascript" src="js/a.js"></script> -->
+  <script src="js/jquery.vide.min.js"></script>
 </head>
 
 <body>
@@ -40,17 +41,22 @@
         <li><a href="contact">contact</li>
         <li><a href="https://www.mercari.com/jp/">webstore</a></li>
       </ul>
+      <div class=icon_container>
         <div class="icon">
         <a href="https://www.instagram.com/ittttogaku/?hl=ja"><img src="../img/insta.svg" alt=""></a>
         </div>
         <div class="icon">
         <a href="https://mobile.twitter.com/ittttoo"><img src="../img/Twitter.svg" alt=""></a>
         </div>
+        <div class="icon">
+        <a href="https://mobile.twitter.com/ittttoo"><img src="../img/behance.svg" alt=""></a>
+        </div>
+      </div>
     </nav>
   </div>
 </div>
 
-<article class="wrapper">
+<!-- <article class="wrapper">
   <div class="box">
       <video class="fitImg" src="img/video.mp4" preload="metadata" autoplay loop playsinline muted></video>
       <div class="box__centered">
@@ -62,7 +68,11 @@
           </div>
       </div>
   </div>
-</article>
+</article> -->
+
+<div style="width: 1000px; height: 500px;"
+  data-vide-bg="../img/video.mp4" data-vide-options="loop: false, muted: false, position: 0% 0%">
+</div>
 
 </body>
 
