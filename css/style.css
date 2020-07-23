@@ -4,10 +4,15 @@
 .box {
 }
 
-headder {
-  position: static;
+header {
+  position: relative;
 }
 
+.header {
+  position: absolute;
+  background-color: #000;
+  width: 100vw;
+}
 
 .box__centered {
   left: 50%;
@@ -105,9 +110,7 @@ headder {
   opacity: 0.3;
 }
 
-.headder {
-  background-color: #000;
-}
+
 
 .icon_container {
   display: flex;
