@@ -4,6 +4,10 @@
 .box {
 }
 
+headder {
+  position: static;
+}
+
 
 .box__centered {
   left: 50%;
