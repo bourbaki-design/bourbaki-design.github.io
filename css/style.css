@@ -5,13 +5,13 @@
 }
 
 header {
-  position: relative;
+  /* position: relative; */
 }
 
 .header {
-  position: absolute;
   background-color: #000;
-  width: 100vw;
+  /* position: absolute;
+  width: 100vw; */
 }
 
 .box__centered {
